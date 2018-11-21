@@ -1,0 +1,728 @@
+.navbar{
+    box-shadow: 0 -24px 29px 15px rgba(0,0,0,0.50);
+}
+
+.navbar-brand img{
+    width: 190px;
+    margin-top: -8px;
+}
+
+.navbar .btn{
+    font-size: 12px;
+    margin-top: 4px;
+    margin-left: 15px;
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+p{
+    font-size: 14px;
+    line-height: 25px;
+}
+
+button.btn{
+    font-weight: 100;
+}
+
+#home h1{
+    color: #fff;
+    vertical-align: middle;
+    margin-top: 15vh;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.nav-item{
+    font-size: 14px;
+}
+
+.jumbotron{
+    height: 65vh;
+    background-image: url("../img/mbpmockup.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    border-radius: 0;
+}
+
+.jumbotron img{
+    width: 250px;
+    margin-top: -4px;
+    margin-bottom: 20px;
+    filter: invert(1);
+}
+
+.jumbotron h2{
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 11px;
+}
+
+.jumbotron .row{
+    margin-top: 20vh;
+}
+
+.jumbotron1{
+    background-image: url("../img/landing2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+
+}
+
+.jumbotron2{
+    width: 60%;
+    position: absolute;
+    right: 0;
+    z-index: -10;
+    padding: 0 !important;
+    background: transparent;
+}
+
+#JumboCarousel{
+    position: absolute;
+    width: 95%;
+    right: 0;
+}
+
+.carousel-item{
+    text-align: center;
+    height: 70vh;
+}
+
+.carousel1{
+    background: #fff;
+}
+
+.carousel1 img{
+    width: 150px;
+    margin-top: 25vh;
+    margin-left: 100px;
+}
+
+.carousel2{
+    background: transparent;
+}
+
+.carousel2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.carousel3{
+    background: red;
+}
+
+.rowmargins{
+    padding-top: 200px !important;
+    padding-bottom: 200px !important;
+}
+
+.specs3{
+    text-align: center;
+}
+
+.specs3 p{
+    max-width: 250px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.specs3 img{
+    vertical-align: middle;
+}
+
+.specs3 .imgHolder{
+    width: 121px;
+    height: 122px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.specs3 .insights{
+    width: 120px;
+}
+
+.specs3 h3{
+    min-height: 66px;
+}
+
+.tabs{
+    background-image: linear-gradient(-218deg, #262f42 0%, #112032 100%);
+    padding-bottom: 0 !important;
+}
+
+.tabs .tab{
+    width: 90%;
+    height: 210px;
+    background: #FFFFFF;
+    box-shadow: 7px 5px 18px -4px rgba(0,0,0,0.50);
+    border-radius: 5px;
+    padding: 20px 35px;
+    opacity: 0.5;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s all;
+}
+
+.tabs .tab.active{
+    opacity: 1;
+}
+
+.tabs .tabimg{
+    margin: auto;
+    display: none;
+    visibility: hidden;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s all;
+}
+
+.tabs .tabimg.active{
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    margin-top: 50px;
+}
+
+.info{
+    background: #fff;
+}
+
+.info h3{
+    margin-bottom: 20px;
+}
+
+.info hr{
+    margin: 80px 0;
+}
+
+.info .imgholder{
+    height: 200px;
+    width: 100%;
+    /*background: #193d85;*/
+}
+
+.info .imgholder img{
+    position: absolute;
+    width: 90%;
+    margin-top: -50px;
+}
+
+.info .imgholder .reports{
+    height: 120%;
+    width: unset;
+    margin-left: 70px;
+    margin-top: -20px;
+}
+
+.info .imgholder .engagements{
+    margin-top: 15px;
+    width: 80%;
+}
+
+.info .imgholder .postperformance{
+    margin-top: unset;
+}
+
+.info .btn{
+    padding: 10px 20px;
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+
+}
+
+.demo{
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.demo h3{
+    margin-bottom: 20px;
+}
+
+.demo.rowmargins{
+    padding-top: 150px !important;
+    padding-bottom: 150px !important;
+}
+
+.demo .btn{
+    padding: 15px 40px;
+}
+
+.contactPage.rowmargins{
+    padding-top: 100px !important;
+}
+
+.contactPage h2{
+    margin-bottom: 20px;
+}
+
+.contactPage h3{
+    margin-bottom: 20px;
+}
+
+.contactPage form .btn{
+    float: right;
+}
+
+.contactPage .mail_img{
+    width: 40px;
+}
+
+.contactPage .smartphone_img{
+    width: 40px;
+}
+
+.contactPage .otherContact p{
+    line-height: 40px;
+}
+
+.contactPage .otherContact a{
+    color: #000;
+    transition: 0.2s all;
+}
+
+.contactPage .otherContact a:hover{
+    color: #007bff;
+    text-decoration: none;
+}
+
+.container-fluid.footer{
+    background: #232B3D;
+    padding: 50px 0 20px 0;
+    color: #fff;
+}
+
+.container-fluid.footer .btn{
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+.container-fluid.footer img{
+    width: 200px;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+.container-fluid.footer h4{
+    margin-bottom: 30px;
+}
+
+.container-fluid.footer p{
+    margin-bottom: 0;
+}
+
+.container-fluid.footer a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.1s all;
+    font-size:13px;
+}
+
+.container-fluid.footer .footertext{
+    max-width: 210px;
+}
+
+.container-fluid.footer a:hover{
+    text-decoration: none;
+    color: #007bff;
+}
+
+.container-fluid.footer .col-md-5{
+    border-color: #dee2e633 !important;
+}
+
+.copyright{
+    padding-top: 40px;
+    opacity: 0.7;
+}
+
+.featuresjumbo{
+    height: 40vh;
+    background-image: url("../img/mbpmockup.jpg");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.featuresjumbo h1{
+    color: #fff;
+    margin-top: 100px;
+}
+
+.features_list{
+    margin: 90px 0;
+}
+
+.features_row{
+    margin-bottom: 50px;
+}
+
+.features_row .col-xl-4{
+    margin-bottom: 40px;
+}
+
+.features_container{
+    height: 225px;
+    border-radius: 5px;
+    padding: 15px 25px;
+    box-shadow: 0 0 18px -1px rgba(0,0,0,0.50);
+}
+
+.features_row .features_container img{
+    width: 55px;
+    margin-top: 60px;
+    transition: 0.3s all;
+}
+
+.features_row .features_container:hover img{
+    width: 60px;
+}
+
+.features_row .features_container hr{
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+}
+
+.contact-modal{
+    margin-top: 10px;
+    -webkit-transform: skewX(-10deg);
+    -moz-transform: skewX(-10deg);
+    -o-transform: skewX(-10deg);
+    color: #fff;
+    background: #232B3D;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    border: none;
+    border-radius: 3px;
+}
+
+.contact-modal .modal-header, .contact-modal .modal-body, .contact-modal .modal-footer{
+    border: none;
+    -webkit-transform: skewX(10deg);
+    -moz-transform: skewX(10deg);
+    -o-transform: skewX(10deg);
+}
+
+.contact-modal .form-group{
+    margin: 0;
+    padding:0;
+    height:45px;
+}
+
+.contact-modal .form-control{
+    font-size: 12px;
+    line-height: 2;
+}
+
+.contact-modal .form-group textarea{
+    height:100px;
+}
+
+.contact-modal .contactbtn{
+    margin-top: 50px;
+    background: #007aff;
+    border: none;
+    color: #fff;
+    transform: skewX(-10deg);
+}
+
+.contact-modal .modal-footer{
+    margin-right: -12px;
+}
+
+.contact-modal h2{
+    margin-bottom: 30px;
+}
+
+.contact-modal form{
+    margin-top: 7px;
+}
+
+.newspaper{
+    width: 30% !important;
+    margin-left: 35%;
+    margin-top: 3% !important;
+}
+    /*-------------START PULSING CIRCLE--------------*/
+.pulsating-circle {
+    transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    left: 50%;
+    top: 18%;
+    width: 60px;
+    height: 60px;
+}
+.pulsating-circle:before {
+         content: '';
+         position: relative;
+         display: block;
+         width: 200%;
+         height: 200%;
+         box-sizing: border-box;
+         margin-left: -50%;
+         margin-top: -50%;
+         border-radius: 90px;
+         background-color: red;
+         animation: pulse-ring 1.25s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+     }
+
+.pulsating-circle:after {
+         content: '';
+         position: absolute;
+         left: 0;
+         top: 0;
+         display: block;
+         width: 100%;
+         height: 100%;
+         background-color: rgba(255,0,0,0.7);
+         border-radius: 30px;
+         box-shadow: 0 0 8px rgba(0,0,0,.3);
+         animation: pulse-dot 1.25s cubic-bezier(0.455, 0.03, 0.515, 0.955) -.4s infinite;
+     }
+
+
+@keyframes pulse-ring {
+    0% {
+        transform: scale(.33);
+    }
+    80%, 100% {
+        opacity: 0;
+    }
+}
+
+@keyframes pulse-dot {
+    0% {
+        transform: scale(.8);
+    }
+    50% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(.8);
+    }
+}
+
+/*-------------END PULSING CIRCLE--------------*/
+
+@media (max-width: 576px) {
+    .mobile-mg-bt{
+        margin-bottom: 70px;
+    }
+
+    .navbar .btn{
+        font-size: 12px;
+        margin-top: 4px;
+        margin-left: unset;
+    }
+
+    .tabs .col-lg-12{
+        display: none;
+    }
+
+    .jumbotron1{
+        background-color: #1a253c;
+    }
+
+    .jumbotron2{
+        display: none;
+    }
+
+    .rowmargins{
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+
+    .info .imgholder .reports{
+        height: 100%;
+        margin-left: 40px
+    }
+
+    .otherContact{
+        margin-top: 50px;
+    }
+
+    .footer .btn{
+        margin-bottom: 50px;
+    }
+
+    .contactPage.rowmargins{
+        padding-top: 30px !important;
+    }
+
+    .tabs .tab{
+        height: 240px;
+    }
+
+    .container-fluid.footer .btn{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .features_row{
+        margin-bottom: 0px;
+    }
+
+    .features_container{
+        height: 250px;
+        padding: 15px 25px;
+        box-shadow: 0 0 18px -1px rgba(0,0,0,0.50);
+        margin-bottom: 30px;
+    }
+
+    .features_row .features_container img{
+        width: 40px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        display: block;
+        transition: 0.3s all;
+    }
+
+    .features_row .features_container h3{
+        text-align: center;
+    }
+
+    .features_row .features_container:hover img{
+        width: 40px;
+    }
+
+    .features_row .features_container hr{
+        margin-top: 0.5rem !important;
+        margin-bottom: 0.5rem !important;
+    }
+
+    .features_row .col-xl-4{
+        margin-bottom: 10px;
+    }
+    .jumbotron{
+        background-position: 31% 0;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .jumbotron1 h1{
+        max-width: 40vw;
+    }
+
+    .specs3 p{
+        margin-bottom: 100px;
+    }
+
+    .rowmargins{
+        padding: 100px 0 !important;
+    }
+
+    .tabs .mobile-mg-bt{
+        margin-bottom: 50px;
+    }
+
+    .tabs.rowmargins{
+        padding-bottom: 0 !important;
+    }
+
+    .tabs .tab{
+        height: 240px;
+    }
+
+    .info .imgholder img{
+        margin-top: 0px;
+        width: 90%;
+    }
+
+    .info .imgholder .postperformance, .info .imgholder .engagements{
+        margin-top: 70px;
+    }
+
+    .info .imgholder .reports{
+        margin-left: 10px;
+        height: 75%;
+        margin-top: 10px;
+    }
+
+    .contact-modal{
+        -webkit-transform: skewX(0deg);
+        -moz-transform: skewX(0deg);
+        -o-transform: skewX(0deg);
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+
+    .contact-modal .modal-header, .contact-modal .modal-body, .contact-modal .modal-footer{
+        -webkit-transform: skewX(0deg) !important;
+        -moz-transform: skewX(0deg) !important;
+        -o-transform: skewX(0deg) !important;
+    }
+
+    .contact-modal .contactbtn{
+        transform: skewX(0deg) !important;
+    }
+
+    .jumbotron2{
+        width: 70%;
+    }
+
+    .carousel1 img{
+        margin-left: 150px;
+    }
+
+    .carousel2 img{
+        width: 130%;
+    }
+
+    .tabs .tabimg.active{
+        margin-top: 20px;
+    }
+
+    .navbar .btn{
+        margin-top: 20px;
+        margin-left: -2px;
+    }
+
+    .features_container{
+        height: 230px;
+    }
+
+    .jumbotron{
+        background-position: 31% 0;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .modal-lg {
+        max-width: 1000px;
+    }
+}
+
+.tos hr{
+    margin: 22px 0;
+}
+
+.tos h3{
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+.tos h4{
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.tos.rowmargins{
+    padding-top:100px !important;
+}
